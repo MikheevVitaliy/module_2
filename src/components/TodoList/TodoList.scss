@@ -1,0 +1,41 @@
+@import 'styles/shared.scss';
+
+.containerTodo {
+@extend %list;
+
+  width: 500px;
+  background-color: #89f8ce;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.cardList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid $green;
+  margin: 10;
+  padding: 0 5px 0 5px;
+}
+
+.cardP {
+  margin: 0;
+}
+
+
+
+.todoButton {
+@extend %button;
+
+  margin-left: 10px;
+  height: 25px;
+  // cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid $green;
+  min-width: 80px;
+  margin: 3px;
+
+  &:hover {
+      background-color: $ellow;
+    }
+}
