@@ -5,6 +5,7 @@ class Dropdoun extends Component {
   state = {
     visible: false,
   };
+
   // Методы которые меняют состояние 'visible'
   // ===================================
   show = () => {
